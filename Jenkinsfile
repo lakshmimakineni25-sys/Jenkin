@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = "yourdockerhubuser/your-app"
+    IMAGE_NAME = "lakshmimakineni25-sys/firstapp"
     DOCKER_CREDENTIALS = "dockerhub-creds"   // replace with your Jenkins credential ID
   }
 
